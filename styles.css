@@ -7,15 +7,13 @@
 
 .top-container {
   background-color: #e5e7eb;
-  margin-left: 2em;
-  margin-right: 2em;
 }
 
 a {
   flex-grow: 1;
   font-weight: bolder;
   font-size: x-large;
-  margin-left: 200px;
+  padding-left: 250px;
 }
 
 ul {
@@ -95,4 +93,50 @@ body {
   font-size: 2em;
   font-weight: 900;
   margin-left: 14em;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 50px
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+}
+
+.blue-box {
+  display: flex;
+  background-color: hsl(220.24deg 87.63% 61.96%);
+  border-radius: 15px;
+  color: white;
+  margin: 100px;
+  width: 1000px; 
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.large-text {
+  font-size: 2em;
+  margin: 0;
+}
+
+.call-button {
+  font-size: 2em;
+  font-weight: 400;
+  border: white;
+  border-style: solid;
+}
+
+.left-side {
+  padding-left: 160px;
+}
+
+.right-side {
+  padding-right: 165px;
 }
